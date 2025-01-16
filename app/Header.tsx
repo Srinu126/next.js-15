@@ -22,6 +22,7 @@ const Header = () => {
   const pathname = usePathname();
   return (
     <div className="flex gap-3">
+        <Link href="/">Home</Link>
       {navLinks.map((navLink) => {
         const isActive =
           pathname === navLink.link ||
