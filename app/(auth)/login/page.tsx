@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 //static metadata object
 export const metadata: Metadata = {
-    title: "Login Page",
+    // title: "Login Page",
     description: "Login Page Description"
 }
 
