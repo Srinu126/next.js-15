@@ -5,13 +5,16 @@ const DashboardLayout = ({
   users,
   notifications,
   marketing,
+  login,
 }: {
   children: React.ReactNode;
   users: React.ReactNode;
   notifications: React.ReactNode;
   marketing: React.ReactNode;
+  login: React.ReactNode;
 }) => {
-  return (
+  const isLoggedIn = true;
+  return isLoggedIn ? (
     <div>
       <div>{children}</div>
       <div className="flex gap-5">
@@ -28,6 +31,8 @@ const DashboardLayout = ({
         </div>
       </div>
     </div>
+  ) : (
+    login
   );
 };
 
