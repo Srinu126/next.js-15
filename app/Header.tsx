@@ -16,6 +16,14 @@ const navLinks = [
     link: "/dashboard",
     title: "Dashboard",
   },
+  {
+    link: "/login",
+    title: "Login",
+  },
+  {
+    link: "/register",
+    title: "Register",
+  },
 ];
 
 const Header = () => {
