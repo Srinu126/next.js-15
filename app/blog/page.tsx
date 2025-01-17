@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   }
 }
 
-const Blog = () => {
+const Blog = async () => {
+  await new Promise((resolve) => setTimeout(() => resolve("intentional delay"), 2000));
   return (
     <div>Blog</div>
   )
