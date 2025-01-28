@@ -1,0 +1,6 @@
+const Product = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+  return <div>Product</div>;
+};
+
+export default Product;
